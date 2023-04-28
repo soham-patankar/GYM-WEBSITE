@@ -1,0 +1,111 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
+body {
+    background-color: aqua;
+    padding: 0px;
+    margin: 0px;
+}
+
+/*Navigation bar section*/
+nav{
+    background-color: #ff17b0;
+    height: 70px;
+}
+
+header{
+    color: white;
+    padding-top: 11px;
+    padding-left: 14px;
+    font-family:sigmar;
+    font-size: 25px;
+    
+}
+
+ul{
+    float: right;
+    margin-top: -33px;
+}
+
+
+li{
+    display: inline-flex;
+    margin-right: 12px;
+    padding-top: 5px;
+}
+
+a{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 8px;
+}
+
+/*Navigation section finished */
+
+/* My Frontend developer part starts*/
+.frontpage{
+    position: absolute;
+    padding-top: 200px;
+    width: 700px;
+    text-align: right;
+    padding-left: 200px;
+    display: flexbox;
+}
+
+.mytitle{
+    top: 200px;
+    left: 300px;
+    position: absolute;
+    font-family:'Satisfy',Regular;
+    font-size: 55px;
+}
+
+#descript{
+    margin-top: 130px;
+    font-size: 30px;
+}
+
+.mainpage{
+    text-align: center;
+    position: relative;
+    display:flex;
+}
+
+.picture{
+    right: 220px;
+    position: absolute;
+}
+
+.pic{
+    margin: 30px;
+    margin-top: 210px;
+}
+
+.portfolio{
+    margin-top: 100px;
+}
+
+.PORTFOLIO header{
+    color: #ff17b0;
+}
+
+/*My Frontend developer part finished*/
+
+/*Portfolio Part started*/
+.portfolio-title{
+    font-family: sigmar;
+    color: #ff17b0;
+    font-size: 35px;
+    text-align: center;
+}
+
+.here-are-my-projects{
+    font-family:satisfy;
+    font-size: 30px;
+    color: darkblue;
+    text-align: center;
+}
