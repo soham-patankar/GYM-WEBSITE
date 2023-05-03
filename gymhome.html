@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gym-design.css">
+    <script src="gymhome.js"></script>
+  <title>Gym Website</title>
+</head>
+<body>
+    <!--First Page STARTS-->
+    <div class="firstpage">
+    <nav class="nav-bar">
+        <h1 class="gym-name">Royal Fitness</h1>
+    <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Products</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact</a></li>
+    </ul> 
+    <ul>
+    <li><button id="login-button" onclick="login()">Login</a></li>
+    <li><button id="signup-button" onclick="signup()">Signup</a></li>
+    </ul>  
+    </nav>
+    <div class="gymimage">
+    <img src="gym.jpg" width="100%">
+    
+    <div class="textimage">
+        <h2>THE JOURNEY TO A <br> HEALTHIER YOU BEGINS NOW</h2>
+    </div> 
+    <!--LOGIN POPUP WINDOW-->
+    <div id="login-popup-window">
+        <button id="close-login-popup" onclick="closelogin()" type="button">X</button>
+        <form>
+        <header id="login-title">Login</header>
+        <label id="username" for="username">Username</label>
+        <input id="username-input" type="text" title="username" placeholder="username"><br>
+        <label id="password" for="password">Password</label>
+        <input id="password-input" type="password" title="password" placeholder="password"><br>
+        <button id="login" type="submit">LOGIN</button>
+        </form>
+    </div>
+    <!--LOGIN POPUP WINDOW-->
+    <!--SIGNUP POPUP WINDOW-->
+    <div id="signup-popup-window">
+        <button id="close-signup-popup" onclick="closesignup()" type="button">X</button>
+        <form>
+        <header id="signup-title">SignUp</header>
+        <label id="username" for="username">Username</label>
+        <input id="username-input" type="text" title="username" placeholder="username"><br>
+        <label id="password" for="password">Password</label>
+        <input id="password-input" type="password" title="password" placeholder="password"><br>
+        <button id="signup" type="submit">SIGNUP</button>
+        </form>
+    </div>
+    <!--LOGIN POPUP WINDOW-->
+    </div> 
+    </div>
+    <!--FIRST PAGE ENDS-->
+    <!--SECOND PAGE STARTS-->
+    <div class="secondpage">
+    
+        <header class="secondtitle">OUR PROGRAM OFFERS</header>
+    <div class="section-row">
+    <div class="section">
+    <h2>CALISTHENICS</h2>
+    <p>it helps to build muscle mass, which can increase your metabolism and help you burn more calories throughout the day. 
+       This can lead to weight loss and improved overall health. Additionally, weightlifting can improve bone density, reduce the
+       risk of injury, and improve balance and coordination.</p>
+    </div>  
+    <div class="section">
+    <h2>WEIGHT-LIFTING</h2>    
+    <p>it is an effective way to build functional strength. Functional strength refers to the ability to perform everyday 
+       tasks such as lifting objects, pushing, pulling, and twisting. Calisthenics exercises such as push-ups, pull-ups, squats, 
+       and lunges all require the use of multiple muscle groups, making them excellent exercises for building functional strength.</p>
+    </div>  
+    <div class="section">
+    <h2>CARDIO</h2>   
+    <p>it helps to improve your heart health. Regular cardio exercise can help to strengthen your heart and reduce your risk of 
+        developing heart disease. It can also help to lower your blood pressure and improve your cholesterol levels.</p> 
+    </div>    
+    </div>
+    </div>
+    <div class="input-info">
+        
+        <video class="promo-video" width="70%" height="600px" controls="false" loop autoplay  muted>
+            <source src="promovideo.mp4" type="video/mp4">
+            YOUR BROWSER DOES NOT SUPPORT THE FOLLWING VIDEO TYPE
+        </video>
+        
+        <form class="input-details">
+        <label id="contact-title">GET IN TOUCH WITH US</label> 
+            <select name="select-options" id="options">
+                <option value="1">GET A FREE TRAINING SESSION</option>
+                <option value="2">JOIN OUR GYM</option>
+                <option value="3">APPLY FOR A JOB</option>
+                <option value="4">WRITE US A TESTIMONIAL</option>
+            </select><br>
+       
+        <label id="name-title" for="name">NAME</label>
+        <input type="text" name="name" title="name" id="name"><br>
+        <label id="email-title" for="email">E-MAIL</label>
+        <input type="email" name="email" title="email" id="email"><br>
+        <label id="phone-title" for="phone">PHONE</label>
+        <input type="tel" name="phone" title="phone" id="phone"><br>
+        <label type="select-your-state" name="select-state" title="state-options">
+        STATE</label>
+        <select name="select-state" id="states">
+            <option value="1">-Select-your-state-</option>
+            <option value="2">Maharashtra</option>
+            <option value="3">Gujarat</option>
+            <option value="4">Telangana</option>
+            <option value="5">Karnataka</option>
+            <option value="6">Goa</option>
+            <option value="7">Punjab</option>
+            <option value="8">Kerala</option>
+            <option value="9">Andhra Pradesh</option>
+            <option value="10">Haryana</option>
+            <option value="11">Bangalore</option>
+            <option value="12">Hyderabad</option>
+        </select>
+        <br><br>
+        <button type="submit" id="submit-button">SUBMIT</button>
+        </form>
+        
+        </div>
+    
+    <footer class="footer-menu">
+        <div class="row-footer">
+            <div class="row-footer-left">
+                <h3>COMPANY</h3>
+                <ul>
+                    <li><a>About Us</a></li>
+                    <li><a>Our Services</a></li>
+                    <li><a>Privacy Policy</a></li>
+                    <li><a>Affiliate Programs</a></li>
+                </ul>
+            </div>
+            <div class="row-footer-center">
+                <h3>GET HELP</h3>
+                <ul>
+                    <li><a>FAQs</a></li>
+                    <li><a>Shipping</a></li>
+                    <li><a>Returns</a></li>
+                    <li><a>Order</a></li>
+                </ul>
+            </div>
+            <div class="row-footer-right">
+                <h3>ONLINE SHOP</h3>
+                <ul>
+                    <li><a>T-shirts</a></li>
+                    <li><a>Shorts</a></li>
+                    <li><a>Shoes</a></li>
+                </ul>
+            </div>
+            <div class="newsletter">
+                <h3>NEWSLETTER</h3>
+                <form>
+                <input placeholder="Enter your email" type="email" id="newsletter" name="newsletter" title="enter email">
+                </form>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
