@@ -276,6 +276,10 @@ ul li a{
 /*SECOND PAGE ENDS*/
 /*THIRD PAGE STARTS*/
 
+.promo-video{
+    pointer-events:none;
+}
+
 .input-info{
   display: flex;
   height: 700px;
